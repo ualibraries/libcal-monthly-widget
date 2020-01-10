@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LibCal Monthly Widget</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://api3.libcal.com/js/hours_month.js?002"></script>
+    <script>
+      $(document).ready(function() {
+        $("#locations")
+          .change(function() {
+            $.LibCalHoursCal($("#s_lc_mhw_433_0"), {
+              iid: 433,
+              lid: $(this).val(),
+              months: 12,
+              show_past: 1
+            });
+          })
+          .change();
+      });
+    </script>
+  </head>
+  <body>
+    <label for="locations">Locations:</label>
+    <select name="locations" id="locations">
+      <option value="5971" selected>Main Library</option>
+      <option value="5972">Weaver Science-Engineering Library</option>
+      <option value="5969">Fine Arts Library</option>
+      <option value="5970">Health Sciences Library - Tucson</option>
+      <option value="5973">Special Collections</option>
+    </select>
+
+    <div id="s_lc_mhw_433_0"></div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+.s-lc-mhw-tb {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.s-lc-mhw-tb th,
+.s-lc-mhw-tb td {
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+.s-lc-mhw-tb thead {
+  background-color: #f5f5f5;
+}
+.s-lc-mhw-header {
+  text-align: center;
+}
+.s-lc-mhw-header-date {
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 130%;
+}
+.s-lc-mhw-days td {
+  text-align: center;
+  font-weight: bold;
+  min-width: 14.28%;
+  max-width: 14.28%;
+  width: 14.28%;
+}
+.s-lc-mhw-day-l {
+  color: #555;
+  text-align: right;
+  padding: 2px;
+  font-size: 11px;
+}
+.s-lc-mhw-cells {
+  height: 50px;
+}
+.s-lc-mhw-fnc {
+  color: #555;
+}
+.s-lc-mhw-loc {
+  font-size: 11px;
+  padding: 2px;
+  border-radius: 4px;
+  margin-bottom: 1px;
+  color: #fff;
+}
+.s-lc-mhw-subloc {
+  margin-left: 5px;
+}
+.s-lc-mhw-footnote-cal {
+  font-size: 86%;
+}
+.loc_5971 {
+  background-color: #000000;
+}
+.loc_11493 {
+  background-color: #000000;
+}
+.loc_11492 {
+  background-color: #000000;
+}
+.loc_5972 {
+  background-color: #000000;
+}
+.loc_11495 {
+  background-color: #000000;
+}
+.loc_11494 {
+  background-color: #000000;
+}
+.loc_5969 {
+  background-color: #000000;
+}
+.loc_11496 {
+  background-color: #000000;
+}
+.loc_5970 {
+  background-color: #000000;
+}
+.loc_11497 {
+  background-color: #000000;
+}
+.loc_11498 {
+  background-color: #000000;
+}
+.loc_11487 {
+  background-color: #000000;
+}
+.loc_5973 {
+  background-color: #000000;
+}
+.loc_11499 {
+  background-color: #000000;
+}
+.loc_6960 {
+  background-color: #000;
+}
+.loc_9918 {
+  background-color: #000000;
+}
