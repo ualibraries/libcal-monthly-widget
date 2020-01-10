@@ -32,7 +32,8 @@
   color: #555;
   text-align: right;
   padding: 2px;
-  font-size: 11px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .s-lc-mhw-cells {
   height: 50px;
@@ -41,63 +42,24 @@
   color: #555;
 }
 .s-lc-mhw-loc {
-  font-size: 11px;
+  font-size: 14px;
   padding: 2px;
-  border-radius: 4px;
-  margin-bottom: 1px;
-  color: #fff;
 }
-.s-lc-mhw-subloc {
-  margin-left: 5px;
+
+.s-lc-mhw-loc-name {
+  font-size: 16px;
+  font-weight: 500;
 }
-.s-lc-mhw-footnote-cal {
-  font-size: 86%;
+
+.s-lc-mhw-sub-loc {
+  margin-top: 8px;
+  margin-left: 8px;
 }
-.loc_5971 {
-  background-color: #000000;
+
+.s-lc-note:after {
+  content: ")";
 }
-.loc_11493 {
-  background-color: #000000;
-}
-.loc_11492 {
-  background-color: #000000;
-}
-.loc_5972 {
-  background-color: #000000;
-}
-.loc_11495 {
-  background-color: #000000;
-}
-.loc_11494 {
-  background-color: #000000;
-}
-.loc_5969 {
-  background-color: #000000;
-}
-.loc_11496 {
-  background-color: #000000;
-}
-.loc_5970 {
-  background-color: #000000;
-}
-.loc_11497 {
-  background-color: #000000;
-}
-.loc_11498 {
-  background-color: #000000;
-}
-.loc_11487 {
-  background-color: #000000;
-}
-.loc_5973 {
-  background-color: #000000;
-}
-.loc_11499 {
-  background-color: #000000;
-}
-.loc_6960 {
-  background-color: #000;
-}
-.loc_9918 {
-  background-color: #000000;
+
+.s-lc-note:before {
+  content: "(";
 }
